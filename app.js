@@ -1,4 +1,4 @@
-const logo = document.querySelectorAll('#logo path');
+const logo = document.querySelectorAll('path');
 
 
 logo.forEach(path => console.log(path.getTotalLength()));
